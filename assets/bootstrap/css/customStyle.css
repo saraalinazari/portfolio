@@ -1,0 +1,77 @@
+.navbarColor{
+    background-color: #44acb1;
+}
+.customnav {
+    background-color:  #434343;
+    /* font-family: 'Fira Sans', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Allura', cursive; */
+font-family: 'Lato', sans-serif;
+    /* #383737; */
+    /* background-image: "assets/img/temp/pic1.jpg"; */
+}
+.h2 devider { width:70%; text-align:center; border-bottom: 1px solid #000; line-height:0.1em; margin:10px 0 20px; } 
+.h2 span devider { background:#fff; padding:0 10px; }
+.alignright{
+    text-align: left;
+}
+.paddingtop{
+    padding-top: 30px;
+}
+.margintop{
+    margin-top: 3px;
+}
+.nomargin{
+    margin-top: 0ch;
+}
+.nopadding{
+    padding-top: 0ch;
+}
+.noborder{
+    border: 0ch;
+}
+h1.timelinetitle{
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.navbarFont{
+    font-family: 'Lato', sans-serif;
+    /* font-size:100pt; */
+    font-weight: bold;
+
+    /* font-size: ; */
+}
+h1.devider{
+    width:90%;
+    font-family: 'Allura', cursive;
+    font-size:50pt;
+    padding-bottom: 15pt;
+    color: #434343;
+    margin-left: 5%;
+    overflow: hidden;
+    text-align: center;
+  
+    /* Satisfy Pacifico Yellowtail Homemade+Apple Alex+Brush Allura*/
+}
+h1.devider:before,
+h1.devider:after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+  
+    width: 50%;
+}
+h1.devider:before {
+    right: 0.5em;
+    margin-left: -50%;
+
+}
+h1.devider:after {
+    left: 0.5em;
+    margin-right: -50%;
+
+}
