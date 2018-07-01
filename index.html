@@ -14,7 +14,8 @@
 
     <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
-	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="assets/js/test.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,10 @@
     <!-- <div class="container">  -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top  portfolio-navbar  customnav">
     <!-- <nav class="navbar navbar-dark navbar-expand-lg fixed-top  portfolio-navbar  "> -->
-        <div class="container"><a class="navbar-brand logo navbarFont" href="#">Sara Alinazari</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand logo navbarFont" href="#">Sara Alinazari</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
@@ -38,11 +42,11 @@
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro">
             <div class="container">
-                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
+                <div class="avatar" style="background-image:url(&quot;assets/img/temp/sara1.png&quot;);"></div>
                 <div class="about-me">
                     <p>
                         Welcome to my portfolio. I am <strong>Sara Alinazari</strong>
-                        a software and full stack developer. My passion is back-end programming and providing 
+                        a software and Full-stack Developer with a focus on backend. My passion is back-end programming and providing 
                         solutions for complicated issues. I am keen to get involved with complicated 
                         programming algorithms. Having experience in programming integrated with 
                         excellent knowledge of business helped me to see the issues out of the box and be 
@@ -53,7 +57,18 @@
             </div>
         </section>
         <!-- START OF TIMELINE SECTION -->
-        <h1 class="devider" >My Projects</h1>
+        <h1 class="devider" >My story</h1>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3>Download pdf version of my resume</h3>
+                    <button class="btn btn-outline-secondary btn-lg" 
+                    type="submit" onclick="window.open('assets/pdf/parking.pdf')">Download My Resume!</button>
+                    <!-- <button class="btn btn-outline-secondary btn-lg"  type="button">Resume</button> -->
+                </div>
+            </div>
+        </section>
+       
         <section class="portfolio-block photography">
             <section class="cd-horizontal-timeline">
                 <div class="timeline">
@@ -298,24 +313,91 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio-block call-to-action border-bottom">
+        <!-- <section class="portfolio-block call-to-action border-bottom">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-secondary btn-lg" type="button">Hire me</button></div>
+                    <h3>Like what you see?</h3>
+                    <button class="btn btn-outline-secondary btn-lg"  type="button">Hire me</button>
+                </div>
             </div>
-        </section>
-       
+        </section> -->
+        
+
+
         <section class="portfolio-block skills">
+                
             <div class="container">
                 <!-- <div class="heading">
                     <h2>Special Skills</h2>
                 </div> --> <h1 class="devider" >Skills</h1>
+                <div class="group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="skills portfolio-info-card">
+                                    <!-- <h2>Skills</h2> -->
+                                    <h3>HTML,CSS,Bootstrap</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                    <h3>JavaScript</h3>
+                                    <div class="progress">
+                                            <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                        </div>
+                                    <h3>JQuery</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                    <h3>Node.Js</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                                    </div>
+                                    
+                                    <h3>React.js</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                                </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class="skills portfolio-info-card">
+                                                <!-- <h2>Skills</h2> -->
+                                                <h3>Express</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                                    </div>
+                                                <h3>Firebase</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                                </div>
+                                                
+                                                <h3>MongoDB</h3>
+                                                <div class="progress">
+                                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                                    </div>
+                                               
+                                                <h3>MySQL</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                                                </div>
+                                                <h3>Microsoft SQL Server</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                                                </div>
+                                                
+                                                </div>
+                                    </div>
+                            </div>
+                            
+                        </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-header bg-transparent border-0">
+                                <!-- <i class="icon ion-ios-star-outline"></i> -->
+                                <img src="assets/img/temp/icon.criticalthinking4.png">
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-title">Web Design</h3>
+                                <!-- <h3 class="card-title">Web Design</h3> -->
                                 <p class="card-text">
                                        <section>Excellent problem solver</section>
                                        <section>Strong ambition for meeting deadlines</section> 
@@ -331,9 +413,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-header bg-transparent border-0">
+                                <!-- <i ng-src="/assets/img/temp/icon.criticalthinking.png" ></i> -->
+                                <img src="assets/img/temp/icon2.1.png">
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-title">Interface Design</h3>
+                                <!-- <h3 class="card-title">Interface Design</h3> -->
                                 <p class="card-text">
                                     <section>Strong will to learn</section>
                                     <section>Embrace new changes and adopt accordingly</section>
@@ -349,9 +434,12 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-header bg-transparent border-0">
+                                <!-- <i class="icon ion-ios-gear-outline"></i> -->
+                                <img src="assets/img/temp/icon.1.png">
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-title">Photography and Print</h3>
+                                <!-- <h3 class="card-title">Photography and Print</h3> -->
                                 <p class="card-text">
                                         <section>Excellent teamwork skills</section>
                                         <section>Well organized</section>
@@ -387,10 +475,17 @@
             </div>
         </div>
     </section> -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+    <footer class="page-footer customfooter">
+        <div class="container ">
+                <div class="links text-white">
+                    <a href="cv.html" class=" text-white">About me</a>
+                    <a href="contact.html" class=" text-white">Contact me</a>
+                    <a href="projects-grid-cards.html" class=" text-white">Projects</a>
+                </div>
+            <div class="social-icons"><a href="https://github.com/saraalinazari"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.linkedin.com/in/sara-alinazari"><i class="icon ion-social-linkedin"></i></a>
+                <a href="index.html"><i class="icon ion-home"></i></a>
+            </div>
         </div>
     </footer>
     <script src="assets/js/jquery-2.1.4.js"></script>
